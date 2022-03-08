@@ -1,6 +1,6 @@
 header{
     display: flex; 
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 
@@ -11,6 +11,7 @@ h1{
     color: brown;
     word-wrap: 20rd;
     font-family: Georgia, serif;
+    margin-right: 3%;
 }
 
 img{
@@ -18,20 +19,45 @@ img{
     width: 8%;
 }
 
-h3{
+.desc{
     color:brown;
-    font-family: Georgia, serif
+    font-family: Georgia, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.selecao{
+.selecao, .btnSort, .sorteio, .acertos{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .selecao > input{
     width: 1.5em;
     font-size: 4em;
     margin-right: 15px;
-    background-color:GhostWhite;
+    background-color: brown;
+    color: white;
+}
+
+.btnSort{
+    font-size: 2em;
+    padding: 10px 25px;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+footer > p{
+    color: white;
+    font-size: 1em;
 }
