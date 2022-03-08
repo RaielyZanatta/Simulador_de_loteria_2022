@@ -20,4 +20,18 @@ img{
 
 h3{
     color:brown;
+    font-family: Georgia, serif
+}
+
+.selecao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selecao > input{
+    width: 1.5em;
+    font-size: 4em;
+    margin-right: 15px;
+    background-color:GhostWhite;
 }
